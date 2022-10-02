@@ -9,12 +9,14 @@ Category.init(
     // Columns defined here -completed-RM
     id: {
       type: DataTypes.INTEGER,
+      allowNull: false,
       primaryKey: true,
       autoIncrement: true,
-      allowNull: false,
+      
     },
     category_name: {
       type: DataTypes.STRING,
+      allowNull: false,
     },
   },
   {

@@ -12,8 +12,8 @@ Product.init(
     // columns defined here
     id: {
       type: DataTypes.INTEGER,
-      primaryKey: true,
       allowNull: false,
+      primaryKey: true,
       autoIncrement: true,
     },
     product_name: {
@@ -38,7 +38,7 @@ Product.init(
     category_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: "Category",
+        model: "category",
         key: "id",
       },
     },
