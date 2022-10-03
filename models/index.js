@@ -10,6 +10,7 @@ Product.belongsTo(Category, {
 });
 // Categories have many Products
 Category.hasMany(Product, {
+  //this foreign key needs to refer to the child category, not the parent category (which would just be "id" - "category_id" is the name of the associated fields) -- maybe, but not sure
   foreignKey: "id",
   onDelete: "CASCADE",
 });
