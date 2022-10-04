@@ -10,9 +10,9 @@
 #### [Description](#description)
 #### [Installation](#installation)
 #### [Usage Info](#usage-info)
-#### [#constribution-guidelines)
-#### [#test-instructions)
-#### [#questions)
+#### [Contribution Guidelines](#contribution-guidelines)
+#### [Test Instructions](#test-instructions)
+#### [Questions](#questions)
 #### [License Info](#license-info)
 
 ## Description
@@ -22,7 +22,7 @@ Being able to manage databases for eCommerce is complicated and needs well writt
 To run this application, you will need to download the following dependencies: `dotenv` v.8.2.0, `express` v.4.17, `mysql` v.2.1.0, and `sequelize` v. 5.21.7.
 
 ## Usage Info
-Through the set up in the package.json, you can run the test data via the command line with `npm run seed` and activate the Port via `node server.js`. Make sure that you initiate the proper database in mySQL by logging in and running the schema file(see my demo video to see how it is done if you aren't sure). That said, make sure you have Node.js and mySQL installed on your computer before attempting to run this application.  
+Through the set up in the package.json, you can run the test data via the command line with `npm run seed` and activate the Port via `node server.js`. Make sure that you initiate the proper database in mySQL by logging in and running the schema file (see my demo video to see how it is done if you aren't sure). That said, make sure you have Node.js and mySQL installed on your computer before attempting to run this application.  
 
 ## Contribution Guidelines
 Please reach out if you would like to contribute!
